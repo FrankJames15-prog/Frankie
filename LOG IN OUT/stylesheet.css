@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: blue;
+}
+
+.container  {
+
+
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.opt-inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.opt-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    outline: none;
+    background: blue;
+    transition: border-color 0.3s;
+}
+
+.opt-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.resend-opt {
+    margin-top: 15px;
+}
+.resend-opt a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resend-opt a:hover {
+    text-decoration: underline;
+}
+
+.resent-link{
+    margin-top: 15px;
+}
+
+.resent-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resent-link a:hover {
+    text-decoration: underline;
+}
